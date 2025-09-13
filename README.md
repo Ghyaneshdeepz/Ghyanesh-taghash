@@ -1,4 +1,7 @@
 📊 Census Management Dashboard
+
+Vercel : https://ghyanesh-taghash.vercel.app/
+
 ![React](https://img.shields.io/badge/React-17.0.2-blue?logo=react
 
 ![GSAP](https://img.shields.io/badge
