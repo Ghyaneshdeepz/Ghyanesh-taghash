@@ -1,17 +1,60 @@
-<<<<<<< HEAD
-# React + Vite
+📊 Census Management Dashboard
+![React](https://img.shields.io/badge/React-17.0.2-blue?logo=react
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![GSAP](https://img.shields.io/badge
 
-Currently, two official plugins are available:
+![TailwindCSS](https://img.shields.io/badge/TailwindCSS-v3.3.2-blue?logo=tailwind-css&logoColor Project Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+A responsive React dashboard to manage census member data including demographics and vaccination records.
+Features an elegant modal form for user registration with real-time validation and a modern animated snackbar for success/error feedback powered by GSAP.
 
-## Expanding the ESLint configuration
+✨ Features
+📋 Data Entry Form Modal with inputs for name, gender, birthdate, and vaccination status
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-=======
-# Ghyanesh-taghash
-I built a sleek dashboard web application using React, Tailwind CSS, GSAP, Node.js + Express, and PostgreSQL, enhanced with Coolicons for a clean, consistent icon style throughout the UI.
->>>>>>> b82ec7d69e25646f8fa08db5c2673c5fd66674ba
+🎨 UI designed with Tailwind CSS
+
+🚀 GSAP Animations for subtle floating badges and snackbar alerts
+
+📈 Charts Visualization (Line and Bar charts using Recharts – can be added/extended)
+
+🗂️ User-friendly Table displaying survey members with sorting and pagination (optional)
+
+🔄 API Integration with async fetch calls for submitting and retrieving data
+
+💻 Installation
+Clone the repo
+
+bash
+git clone https://github.com/yourusername/census-dashboard.git
+cd census-dashboard
+Install dependencies
+
+bash
+npm install
+Start the development server
+
+bash
+npm start
+Open your browser at http://localhost:3000
+
+📂 Usage
+Click Survey Now button to open the modal form.
+
+Fill out the required fields and submit.
+
+A snackbar notification will appear at the top confirming submission.
+
+View registered data live in the dashboard.
+
+🔧 Technologies Used
+Technology	Usage
+![React](https://img.shields.io/badge/React-17.0.2-blue?logo=react Frontend UI framework	
+![GSAP](https://img.shields.io/badge Animations for badges, snackbar	
+![TailwindCSS](https://img.shields.io/badge/TailwindCSS-v3.3.2-blue?logo=tailwind-css&logoColor and responsive UI	
+![Recharts](https://img.shields.io/badge Data visualization (charts)	
+Node.js / Express	Backend API (if applicable)
+📷 Screenshots
+Form Modal	Snackbar Notification
+![FormModal](https://user-images.githubusercontent.com/your-user/form-modal ![Snackbar](https://user-images.githubusercontent.com/your-user/snackbar-s	
+🤝 Contributing
+Contributions are welcome! Feel free to open issues or pull requests.
